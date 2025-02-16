@@ -21,3 +21,7 @@ Traditionally, you can compile a Rust program by running `rustc main.rs`. This i
 If you compile like that, an executable will be created in `/src/` named after the file. So for `main.rs` would be simply `main`
 
 To run the executable, you simply `./main` in the directory where the file is contained
+
+## Hello, Cargo!
+
+So cargo is what you want to use to do everything. Is like Node for JavaScript, so it helps running, compiling, generating project templates and other very useful stuff.
