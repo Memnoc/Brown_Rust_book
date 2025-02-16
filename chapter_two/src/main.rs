@@ -19,3 +19,13 @@ fn main() {
 
     println!("You guessed: {}", guess);
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_past() {
+        todo!()
+    }
+}
