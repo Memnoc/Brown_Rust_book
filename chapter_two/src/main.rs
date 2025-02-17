@@ -9,7 +9,7 @@ fn main() {
     //HEADER: creates a new variable with string type
     let mut guess = String::new();
 
-    //HEADER: logic to read the user input
+    //NOTE: logic to read the user input
     //imports the standard library for input/output
     //uses the built-in read_line to read and handle errors
     // uses expect to handle panic - not very good
