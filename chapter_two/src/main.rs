@@ -1,3 +1,4 @@
+use rand::Rng;
 use std::io;
 
 fn main() {
@@ -5,6 +6,10 @@ fn main() {
     // NOTE: we are not gonna create a new project for this
     // We are gonna write all the code in the chapter two dir
     println!("=== Guessing the number! ===");
+
+    let secret_number = rand::rng().random_range(1..=100);
+    println!("The secret nubmer is: {secret_number}");
+    println!("Please input your guess");
 
     //HEADER: creates a new variable with string type
     let mut guess = String::new();

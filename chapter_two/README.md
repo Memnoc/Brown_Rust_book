@@ -42,3 +42,17 @@ We will see later why crashing the program is a drastic measure, and should not 
 
 We do that through a library called `rand`
 A useful command to do that is `cargo add rand` - and cargo add --crate more generally
+
+**Usage:**
+
+```rust
+    let secret_number = rand::rng().random_range(1..=100);
+```
+
+```
+
+```
+
+```
+
+```
