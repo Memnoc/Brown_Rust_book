@@ -37,3 +37,8 @@ This means that an instance of `Result` can invoke the `expect()` method, which 
 If you do not do that, Rust warns you that you are not handling the `Result` values returned from `read_line` and that the program is not handling a possible error
 
 We will see later why crashing the program is a drastic measure, and should not be the way the majority of errors are handled.
+
+## Generating a secret number
+
+We do that through a library called `rand`
+A useful command to do that is `cargo add rand` - and cargo add --crate more generally
